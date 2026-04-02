@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hem — AI Solutions Enabler</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Geist+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-[#060809] text-[#e8ede8]">
+
+  <!-- Grain overlay -->
+  <div class="grain-overlay"></div>
+
+  <!-- Header -->
+  <header class="px-6 md:px-12 py-4 flex items-center justify-between sticky top-0 z-50">
+    <div class="flex items-center gap-6">
+      <span class="font-mono text-xs tracking-widest uppercase opacity-50">Portfolio</span>
+      <span class="text-white/10">—</span>
+      <span class="font-mono text-xs tracking-widest uppercase opacity-50">2026</span>
+    </div>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="#about" class="font-mono text-xs tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity">About</a>
+      <a href="#projects" class="font-mono text-xs tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity">Projects</a>
+      <a href="#mindmap" class="font-mono text-xs tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity">Mind Map</a>
+      <a href="#connect" class="font-mono text-xs tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity">Connect</a>
+    </nav>
+    <div class="w-2 h-2 rounded-full bg-emerald-500 blink-dot"></div>
+  </header>
+
+  <!-- Hero -->
+  <section class="px-6 md:px-12 pt-20 pb-16 border-b border-bio">
+    <div class="max-w-5xl">
+      <p class="font-mono text-xs tracking-widest uppercase opacity-40 mb-8">Bogotá, Colombia — AI × Growth × Data</p>
+      <h1 class="fell-title text-6xl md:text-8xl lg:text-[9rem] leading-[0.9] mb-6 tracking-tight">
+        Hem<br/>
+        <em class="opacity-40">ily</em><br/>
+        Silva
+      </h1>
+      <div class="flex flex-col md:flex-row md:items-end gap-8 mt-12">
+        <p class="text-lg md:text-xl font-serif leading-relaxed max-w-xl opacity-80">
+          Brand Strategist · AI Automation Builder. 
+          <em>Multipotential by design, organized by necessity.</em>
+        </p>
+        <div class="flex gap-4 md:ml-auto">
+          <a href="https://www.notion.so/Portafolio-AI-Solutions-Enabler-32c09129182c8116b903d4279ad4a5c6" target="_blank" class="btn-arena">
+            <span>Full Portfolio</span>
+            <span class="opacity-40">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Identity Tags -->
+  <section id="about" class="px-6 md:px-12 py-12 border-b border-bio">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-0 border border-bio">
+      <div class="tag-cell border-r border-bio last:border-r-0">
+        <span class="tag-label">Approach</span>
+        <span class="tag-value">AI Solutions Enabler</span>
+      </div>
+      <div class="tag-cell border-r border-bio">
+        <span class="tag-label">Stack</span>
+        <span class="tag-value">Make · n8n · Claude · Airtable</span>
+      </div>
+      <div class="tag-cell border-r border-bio">
+        <span class="tag-label">Focus</span>
+        <span class="tag-value">Automation · Brand · Strategy</span>
+      </div>
+      <div class="tag-cell">
+        <span class="tag-label">Mode</span>
+        <span class="tag-value">Neurodivergent + Multipotential</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section id="projects" class="px-6 md:px-12 py-16 border-b border-bio">
+    <div class="flex items-center gap-4 mb-12">
+      <h2 class="font-mono text-xs tracking-widest uppercase opacity-40">Projects</h2>
+      <div class="flex-1 h-px bg-bio/10"></div>
+      <span class="font-mono text-xs opacity-30">03 items</span>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-l border-t border-bio">
+      
+      <!-- Project 1: SEI -->
+      <div class="project-card border-r border-b border-bio p-8 group cursor-pointer" onclick="window.open('https://3000-iy508wq6m9k6gx05qrm60-2931b573.us1.manus.computer', '_blank')">
+        <div class="flex justify-between items-start mb-8">
+          <span class="font-mono text-xs opacity-30">01</span>
+          <span class="font-mono text-xs opacity-0 group-hover:opacity-60 transition-opacity">↗</span>
+        </div>
+        <div class="mb-6">
+          <div class="w-full h-32 bg-white/3 rounded-sm mb-4 overflow-hidden relative">
+            <div class="sei-visual"></div>
+          </div>
+        </div>
+        <h3 class="fell-title text-2xl mb-2">SEI</h3>
+        <p class="font-mono text-xs opacity-50 mb-4 uppercase tracking-wider">Sistema de Evaluación Inteligente</p>
+        <p class="text-sm leading-relaxed font-serif opacity-60">
+          AI-powered candidate evaluation system. Built with Tally, OpenAI API, Airtable, and Make. Automates technical screening at scale.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="chip">OpenAI API</span>
+          <span class="chip">Make</span>
+          <span class="chip">Airtable</span>
+          <span class="chip">JSON</span>
+        </div>
+      </div>
+
+      <!-- Project 2: GitHub -->
+      <div class="project-card border-r border-b border-bio p-8 group cursor-pointer" onclick="window.open('https://github.com/Hemilysilva-22', '_blank')">
+        <div class="flex justify-between items-start mb-8">
+          <span class="font-mono text-xs opacity-30">02</span>
+          <span class="font-mono text-xs opacity-0 group-hover:opacity-60 transition-opacity">↗</span>
+        </div>
+        <div class="mb-6">
+          <div class="w-full h-32 bg-white/3 rounded-sm mb-4 overflow-hidden relative">
+            <div class="github-visual"></div>
+          </div>
+        </div>
+        <h3 class="fell-title text-2xl mb-2">GitHub</h3>
+        <p class="font-mono text-xs opacity-50 mb-4 uppercase tracking-wider">Open Experiments</p>
+        <p class="text-sm leading-relaxed font-serif opacity-60">
+          Automation scripts, AI agent prototypes, and no-code experiments. Building in public while learning in real-time.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="chip">Python</span>
+          <span class="chip">JS</span>
+          <span class="chip">Automation</span>
+        </div>
+      </div>
+
+      <!-- Project 3: Notion Portfolio -->
+      <div class="project-card border-r border-b border-bio p-8 group cursor-pointer" onclick="window.open('https://www.notion.so/Portafolio-AI-Solutions-Enabler-32c09129182c8116b903d4279ad4a5c6', '_blank')">
+        <div class="flex justify-between items-start mb-8">
+          <span class="font-mono text-xs opacity-30">03</span>
+          <span class="font-mono text-xs opacity-0 group-hover:opacity-60 transition-opacity">↗</span>
+        </div>
+        <div class="mb-6">
+          <div class="w-full h-32 bg-white/3 rounded-sm mb-4 overflow-hidden relative">
+            <div class="notion-visual"></div>
+          </div>
+        </div>
+        <h3 class="fell-title text-2xl mb-2">Notion Portfolio</h3>
+        <p class="font-mono text-xs opacity-50 mb-4 uppercase tracking-wider">AI Solutions Enabler</p>
+        <p class="text-sm leading-relaxed font-serif opacity-60">
+          Full documentation of process, methodologies, and outcomes. Strategic thinking made visible.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="chip">Notion</span>
+          <span class="chip">Strategy</span>
+          <span class="chip">Docs</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Add more projects hint -->
+    <div class="border border-dashed border-bio mt-0 p-6 flex items-center justify-center gap-3 opacity-40 hover:opacity-70 transition-opacity cursor-default">
+      <span class="font-mono text-xs">+ more coming</span>
+    </div>
+  </section>
+
+  <!-- Mind Map Section -->
+  <section id="mindmap" class="px-6 md:px-12 py-16 border-b border-bio">
+    <div class="flex items-center gap-4 mb-12">
+      <h2 class="font-mono text-xs tracking-widest uppercase opacity-40">Mind Map</h2>
+      <div class="flex-1 h-px bg-bio/10"></div>
+      <span class="font-mono text-xs opacity-30">How my brain works</span>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-0 border border-bio">
+      
+      <!-- Center node -->
+      <div class="mindmap-center lg:col-span-2 p-10 flex flex-col justify-center items-center text-center">
+        <div class="w-3 h-3 rounded-full bg-bio/20 mb-6"></div>
+        <h3 class="fell-title text-4xl mb-4">Hem</h3>
+        <p class="font-mono text-xs opacity-50 leading-relaxed uppercase tracking-widest">
+          Multipotential<br/>Neurodivergent<br/>Systems Thinker
+        </p>
+        <div class="mt-8 grid grid-cols-3 gap-3 w-full">
+          <div class="node-mini">🧠 ADHD</div>
+          <div class="node-mini">⚡ Fast</div>
+          <div class="node-mini">🌀 Non-linear</div>
+        </div>
+      </div>
+
+      <!-- Branches -->
+      <div class="lg:col-span-3 grid grid-cols-1 divide-y divide-bio">
+        
+        <div class="branch-row">
+          <div class="branch-dot bg-amber-400"></div>
+          <div>
+            <p class="font-mono text-xs uppercase tracking-widest opacity-50 mb-1">Domain 01</p>
+            <h4 class="fell-title text-xl mb-1">AI & Automation</h4>
+            <p class="text-xs opacity-50 font-mono">Multi-agent systems · n8n · Make · OpenAI · Claude API</p>
+          </div>
+        </div>
+
+        <div class="branch-row">
+          <div class="branch-dot bg-blue-400"></div>
+          <div>
+            <p class="font-mono text-xs uppercase tracking-widest opacity-50 mb-1">Domain 02</p>
+            <h4 class="fell-title text-xl mb-1">Talent Strategy</h4>
+            <p class="text-xs opacity-50 font-mono">AI roles · Growth teams · Data orgs · Talent systems</p>
+          </div>
+        </div>
+
+        <div class="branch-row">
+          <div class="branch-dot bg-rose-400"></div>
+          <div>
+            <p class="font-mono text-xs uppercase tracking-widest opacity-50 mb-1">Domain 03</p>
+            <h4 class="fell-title text-xl mb-1">Brand & Content</h4>
+            <p class="text-xs opacity-50 font-mono">Personal brand · YouTube strategy · Thought leadership · L'Oréal</p>
+          </div>
+        </div>
+
+        <div class="branch-row">
+          <div class="branch-dot bg-emerald-400"></div>
+          <div>
+            <p class="font-mono text-xs uppercase tracking-widest opacity-50 mb-1">Domain 04</p>
+            <h4 class="fell-title text-xl mb-1">Business Creation</h4>
+            <p class="text-xs opacity-50 font-mono">The Flow OS · Simplify Hub · No-code consultancy · Colombia market</p>
+          </div>
+        </div>
+
+        <div class="branch-row">
+          <div class="branch-dot bg-violet-400"></div>
+          <div>
+            <p class="font-mono text-xs uppercase tracking-widest opacity-50 mb-1">Domain 05</p>
+            <h4 class="fell-title text-xl mb-1">Trading & Finance</h4>
+            <p class="text-xs opacity-50 font-mono">TradeLog · Proyecto Kaizen M · Systematic journaling · Risk mgmt</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <blockquote class="mt-8 border-l-2 border-bio pl-6">
+      <p class="fell-title text-xl md:text-2xl opacity-60 italic">
+        "I don't have one path. I have a constellation."
+      </p>
+    </blockquote>
+  </section>
+
+  <!-- Currently Building -->
+  <section class="px-6 md:px-12 py-16 border-b border-bio">
+    <div class="flex items-center gap-4 mb-12">
+      <h2 class="font-mono text-xs tracking-widest uppercase opacity-40">Currently Building</h2>
+      <div class="flex-1 h-px bg-bio/10"></div>
+      <div class="flex items-center gap-2">
+        <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 blink-dot"></div>
+        <span class="font-mono text-xs opacity-30">live</span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-l border-t border-bio">
+      <div class="now-card border-r border-b border-bio p-8">
+        <span class="font-mono text-xs opacity-40 uppercase tracking-wider">Agent System</span>
+        <h4 class="fell-title text-2xl mt-2 mb-3">Multi-Agent AI Architecture</h4>
+        <p class="text-sm opacity-60 font-serif leading-relaxed">Designing a foundational ontology for specialized AI agents. Rapid deployment pipeline for autonomous workflows.</p>
+        <div class="mt-4 h-1 bg-white/5 rounded-full overflow-hidden">
+          <div class="h-full bg-bio/30 rounded-full" style="width: 60%"></div>
+        </div>
+        <p class="font-mono text-xs opacity-30 mt-2">60% — In progress</p>
+      </div>
+
+      <div class="now-card border-r border-b border-bio p-8">
+        <span class="font-mono text-xs opacity-40 uppercase tracking-wider">Learning</span>
+        <h4 class="fell-title text-2xl mt-2 mb-3">SQL + Data Analysis</h4>
+        <p class="text-sm opacity-60 font-serif leading-relaxed">Practical SQL tied to real Airtable data. Building the analytical layer to complement automation work.</p>
+        <div class="mt-4 h-1 bg-white/5 rounded-full overflow-hidden">
+          <div class="h-full bg-amber-400 rounded-full" style="width: 35%"></div>
+        </div>
+        <p class="font-mono text-xs opacity-30 mt-2">35% — Active study</p>
+      </div>
+
+      <div class="now-card border-r border-b border-bio p-8">
+        <span class="font-mono text-xs opacity-40 uppercase tracking-wider">Automation</span>
+        <h4 class="fell-title text-2xl mt-2 mb-3">Gmail Inbox System</h4>
+        <p class="text-sm opacity-60 font-serif leading-relaxed">Google Apps Script automation for zero-inbox methodology. Built and deployed.</p>
+        <div class="mt-4 h-1 bg-white/5 rounded-full overflow-hidden">
+          <div class="h-full bg-emerald-500 rounded-full" style="width: 100%"></div>
+        </div>
+        <p class="font-mono text-xs opacity-30 mt-2">100% — Shipped ✓</p>
+      </div>
+
+      <div class="now-card border-r border-b border-bio p-8">
+        <span class="font-mono text-xs opacity-40 uppercase tracking-wider">Business</span>
+        <h4 class="fell-title text-2xl mt-2 mb-3">The Flow OS</h4>
+        <p class="text-sm opacity-60 font-serif leading-relaxed">No-code automation consultancy for Colombian freelancers. PESTEL, market validation, and pitch complete.</p>
+        <div class="mt-4 h-1 bg-white/5 rounded-full overflow-hidden">
+          <div class="h-full bg-blue-400 rounded-full" style="width: 75%"></div>
+        </div>
+        <p class="font-mono text-xs opacity-30 mt-2">75% — MVP stage</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect / Footer -->
+  <section id="connect" class="px-6 md:px-12 py-20">
+    <div class="max-w-2xl">
+      <p class="font-mono text-xs tracking-widest uppercase opacity-40 mb-6">Connect</p>
+      <h2 class="fell-title text-5xl md:text-6xl mb-8 leading-tight">
+        Let's build<br/><em class="opacity-40">something strange.</em>
+      </h2>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="https://www.notion.so/Portafolio-AI-Solutions-Enabler-32c09129182c8116b903d4279ad4a5c6" target="_blank" class="btn-primary">
+          View Full Portfolio ↗
+        </a>
+        <a href="https://github.com/Hemilysilva-22" target="_blank" class="btn-secondary">
+          GitHub ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer strip -->
+  <footer class="border-t border-bio px-6 md:px-12 py-4 flex items-center justify-between">
+    <span class="font-mono text-xs opacity-30">Hemily Silva · Bogotá, CO</span>
+    <span class="font-mono text-xs opacity-30">AI Solutions Enabler · 2026</span>
+  </footer>
+
+</body>
+</html>
